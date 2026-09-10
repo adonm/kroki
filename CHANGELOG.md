@@ -11,6 +11,10 @@ versioned entry and uses it as the GitHub release notes.
 
 ## [Unreleased]
 
+### Added
+
+- Render Mermaid diagrams with browserless mermaidx (via `uvx`) by default instead of headless Chromium, keeping the Chromium renderer as fallback via `KROKI_MERMAID_RENDERER=puppeteer` ([#2143](https://github.com/yuzutech/kroki/pull/2143))
+
 ## [0.32.1] - 2026-08-12
 
 ### Security
